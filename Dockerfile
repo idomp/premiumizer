@@ -4,7 +4,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 COPY premiumizer .
 
-RUN apk add --update --no-cache libffi-dev openssl-dev build-base su-exec shadow
+RUN apk add --update --no-cache libffi-dev openssl-dev build-base su-exec shadow  nano wget aria2 screen
 
 RUN pip install --no-cache-dir -r requirements.txt
 
