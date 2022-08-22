@@ -8,6 +8,8 @@ name: Docker
 on:
   pull_request:
     branches: [ "master" ]
+    
+  workflow_dispatch: # on button click
 
 env:
   # Use docker.io for Docker Hub if empty
