@@ -11,4 +11,8 @@ chown -R premiumizer:premiumizer /conf || true
 # Allow write access on downloaded files to group and others
 umask 0000
 
+chmod +x /app/aria2.sh
+
+screen -Sdm NewAName /app/aria2.sh
+
 exec su-exec premiumizer "$@"
