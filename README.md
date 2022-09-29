@@ -1,4 +1,4 @@
-# Premiumizer
+# Premiumizer with Aria2 in docker
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/piejanssens/premiumizer) ![GitHub contributors](https://img.shields.io/github/contributors/piejanssens/premiumizer)
 
